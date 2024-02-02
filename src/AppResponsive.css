@@ -1,0 +1,140 @@
+@media (min-width: 1px) and (max-width: 299.98px) {
+    
+    #content-container {
+        min-height: calc(100vh - 70px);
+    }
+
+    .content-container-wrong {
+        background-size: 90%;
+        background-position: 290% 94%;
+    }
+    
+    .content-container-right {
+        background-size: 90%;
+        background-position: -190% 93%;
+    }
+
+    .content-container-win{
+        background-size: 185%;
+    }
+
+}
+
+@media (min-width: 300px) and (max-width: 499.98px) {
+    
+    #content-container {
+        min-height: calc(100vh - 70px);
+    }
+
+    .content-container-wrong {
+        background-size: 95%;
+        background-position: 500% 94%;
+    }
+    
+    .content-container-right {
+        background-size: 95%;
+        background-position: -400% 93%;
+    }
+    .content-container-win{
+        background-size: 180%;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 599.98px) {
+    
+    #content-container {
+        min-height: calc(100vh - 90px);
+    }
+
+    .content-container-wrong {
+        background-size: 75%;
+        background-position: 115% 94%;
+    }
+    
+    .content-container-right {
+        background-size: 75%;
+        background-position: -15% 93%;
+    }
+    
+    .content-container-win{
+        background-size: 150%;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 754.98px) {
+    
+    #content-container {
+        min-height: calc(100vh - 90px);
+    }
+
+    .content-container-wrong {
+        background-size: 75%;
+        background-position: 115% 94%;
+    }
+
+    .content-container-right {
+        background-size: 75%;
+        background-position: -15% 93%;
+    }
+
+    .content-container-win {
+        background-size: 150%;
+    }
+
+}
+
+@media (min-width: 755px) and (max-width: 959.98px) {
+    
+    #content-container {
+        min-height: calc(100vh - 100px);
+    }
+
+    .content-container-wrong {
+        background-position: 115% 100%;
+    }
+    
+    .content-container-right {
+        background-position: 0% 100%;
+    }
+
+    .content-container-win {
+        background-size: 150%;
+    }
+
+}
+
+@media (min-width: 960px) and (max-width: 1279.98px) {
+    
+    #content-container {
+        min-height: calc(100vh - 100px);
+    }
+
+}
+
+@media (min-width: 1280px) and (max-width: 1599.98px) {
+    
+    #content-container {
+        min-height: calc(100vh - 110px);
+    }
+
+}
+
+@media (max-width: 959.98px) and (orientation: landscape) and (pointer:coarse) {
+
+    #content-container {
+        min-height: calc(100vh - 40px);
+    }
+
+    .content-container-wrong {
+        background-size: 50%;
+        background-position: 135% 118%;
+    }
+
+    .content-container-right {
+        background-size: 50%;
+        background-position: -32% 115%;
+    }
+
+}

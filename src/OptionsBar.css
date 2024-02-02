@@ -1,0 +1,22 @@
+#options-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50px;
+    width: 55%;
+    margin: 0 auto;
+}
+
+#new-game-button {
+    height: 30px;
+    margin-right: 20px;
+    font-family: Calculator;
+    font-weight: bold;
+    font-size: 20px;
+    border: 2px solid black;
+    background: linear-gradient(135deg, rgba(59, 65, 13, 0.801) 0%, rgba(196, 151, 54, 0.8) 15%, rgba(144, 238, 144, 0.8) 85%, rgba(59, 65, 13, 0.795) 100%);
+}
+
+#new-game-button:active {
+    scale: 0.95;
+}

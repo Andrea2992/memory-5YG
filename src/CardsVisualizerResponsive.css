@@ -1,0 +1,60 @@
+@media (min-width: 1px) and (max-width: 359.98px) {
+    
+    #cards-container {
+        width: 98%;
+        padding: 15px 0;
+    }
+
+}
+
+@media (min-width: 360px) and (max-width: 599.98px) {
+    
+    #cards-container {
+        width: 98%;
+        padding: 10px 0;
+    }
+
+}
+
+@media (min-width: 600px) and (max-width: 754.98px) {
+    
+    #cards-container {
+        width: 98%;
+        padding: 5px 0;
+    }
+
+}
+
+@media (min-width: 755px) and (max-width: 959.98px) {
+    
+    #cards-container {
+        width: 75%;
+        padding: 15px 0;
+    }
+
+}
+
+@media (min-width: 960px) and (max-width: 1279.98px) {
+    
+    #cards-container {
+        width: 75%;
+        padding: 15px 0;
+    }
+
+}
+
+@media (min-width: 1280px) and (max-width: 1599.98px) {
+    
+    #cards-container {
+        width: 65%;
+    }
+
+}
+
+@media (max-width: 959.98px) and (orientation: landscape) and (pointer:coarse) {
+
+    #cards-container {
+        padding: 10px 0 0 0;
+    }
+
+}
