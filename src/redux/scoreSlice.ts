@@ -10,11 +10,7 @@ export const score = createSlice({
             state.value = state.value + 50;
         },
         decreaseScore: (state) => {
-            if (state.value >= 20) {
-                state.value = state.value - 20;
-            } else {
-                state.value = 0;
-            }
+                state.value = state.value - 15;
         },
         newGameScore: (state) => {
             state.value = 0;

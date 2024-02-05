@@ -36,7 +36,7 @@ function CardsVisualizer() {
             return card.key === id
         });
         const cardCopy = { ...cards[index] };
-        if (cardCopy.isPlayable === false) {
+        if (cardCopy.isVisible === true || cardCopy.isPlayable === false) {
             return
         };
         const tempCards = [...cards];
