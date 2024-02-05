@@ -7,12 +7,14 @@ function OptionsBar({ newGame, cards }: OptionsBarProps) {
     return (
         <>
             <div id="options-container">
-                <button
-                    id="new-game-button"
-                    onClick={() => newGame(cards)}
-                >
-                    +NEW GAME!
-                </button>
+                <div id="div-8bit">
+                    <div
+                        id="new-game-button"
+                        onClick={() => newGame(cards)}
+                    >
+                        +NEW GAME!
+                    </div>
+                </div>
             </div>
         </>
     )

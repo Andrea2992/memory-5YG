@@ -7,21 +7,50 @@
     margin: 0 auto;
 }
 
-#new-game-button {
-    height: 45px;
-    width: 150px;
+#div-8bit {
+    border-left: 4px solid #00ff62;
+    border-right: 4px solid #00ff62;
     margin-right: 20px;
+    float: left;
+    position: relative;
+}
+
+#new-game-button {
+    height: 40px;
+    width: 150px;
+    margin: -4px 0;
     font-family: PressStart;
     font-size: 12px;
-    border: 2px solid black;
+    border-top: 4px solid #00ff62;
+    border-bottom: 4px solid #00ff62;
+    display: grid;
+	align-items: center;
+    text-align: center;
     background: url('../public/assets/header-8bit.jpg') no-repeat center / cover;
     color: white;
 }
 
-#new-game-button:hover {
+#new-game-button::before,
+#new-game-button::after,
+#div-8bit::before,
+#div-8bit::after {
+    content: '';
+    width: 4px;
+    height: 4px;
+    display: block;
+    position: absolute;
+    background: #00ff62;
+}
+
+#new-game-button::before{ top: -2px; left: -2px; }
+#new-game-button::after{ top: -2px; right: -2px; }
+#div-8bit::before{ bottom: -2px; left: -2px; }
+#div-8bit::after{ bottom: -2px; right: -2px; }
+
+#div-8bit:hover {
     scale: 1.05;
 }
 
-#new-game-button:active {
+#div-8bit:active {
     scale: 0.95;
 }

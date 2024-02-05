@@ -11,11 +11,7 @@ function App() {
 
   const classPainter = useSelector((state: IRootState) => state.gameStatus.message);
   function classSelector(message: string) {
-    if (message === 'RIGHT ANSWER') {
-      return 'content-container-right'
-    } else if (message === 'WRONG ANSWER') {
-      return 'content-container-wrong'
-    } else if (message === 'YOU WIN!') {
+    if (message === 'YOU WIN!') {
       return 'content-container-win'
     } else {
       return ''

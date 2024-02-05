@@ -4,18 +4,6 @@
     min-height: calc(100vh - 170px);
 }
 
-.content-container-wrong {
-    background: url(../public/assets/front-painter.png) no-repeat;
-    background-size: 70%;
-    background-position: 175% 35%;
-}
-
-.content-container-right {
-    background: url(../public/assets/rear-painter.png) no-repeat;
-    background-size: 70%;
-    background-position: -70% 50%;
-}
-
 .content-container-win {
     background: url(../public/assets/winner.png) no-repeat center / cover;
     background-size: 110%;

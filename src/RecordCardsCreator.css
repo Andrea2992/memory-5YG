@@ -1,17 +1,17 @@
 .single-card-container {
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 190px;
+    height: 190px;
     background-color: rgb(0, 0, 0);
     margin: 10px;
 }
 
 .gold-border {
-    border: 2px solid rgb(255, 255, 255);
+    border: 3px solid #00ff62;
 }
 
 .red-border {
-    border: 2px solid #000000;
+    border: 3px solid #00ff62;
 }
 
 .memory-image {

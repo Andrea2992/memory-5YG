@@ -13,8 +13,16 @@ function GameStateText() {
     return (
         <>
             <div id='game-status-container'>
-                <div id='game-status'><div id='div-8bit'>{text.message}<br />{text.hint}</div></div>
-                <div id='score'>{isGameEnded}</div>
+                <div id='game-status'>
+                    <div className='div-8bit'>
+                        {text.message}<br />{text.hint}
+                    </div>
+                </div>
+                <div id='score'>
+                    <div className='div-8bit'>
+                        {isGameEnded}
+                    </div>
+                </div>
             </div>
         </>
     )
