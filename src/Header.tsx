@@ -5,7 +5,7 @@ function Header() {
     return (
         <>
             <div id="header-banner">
-                <div id='header-title'>Memory Game</div>
+                <div id='header-title'>Memory 5YG</div>
             </div>
         </>
     )

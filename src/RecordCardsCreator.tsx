@@ -3,7 +3,7 @@ import './RecordCardsCreatorResponsive.css';
 
 function RecordCardsCreator({ image, isVisible, id, onCardClicked }: RecordCardsCreatorProps) {
 
-    const backCard = `${process.env.REACT_APP_IMAGE_BASE_URL}card-back.jpg`;
+    const backCard = `${process.env.REACT_APP_IMAGE_BASE_URL}neon-pixelicious.png`;
     const frontOrBack = isVisible === true ? image : backCard;
     const goldBorder = 'memory-image gold-border';
     const redBorder = 'memory-image red-border';

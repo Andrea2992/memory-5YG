@@ -11,7 +11,7 @@ function OptionsBar({ newGame, cards }: OptionsBarProps) {
                     id="new-game-button"
                     onClick={() => newGame(cards)}
                 >
-                    + NEW GAME
+                    +NEW GAME!
                 </button>
             </div>
         </>

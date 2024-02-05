@@ -15,7 +15,9 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(45deg, rgba(255, 149, 0, 0.8) 0%, rgba(77, 138, 19, 0.8) 100%);
+  background: url('../public/assets/white-backg8bit.jpg');
+  background-size: 110%;
+  /*background-position: 50% 20%;*/
   min-height: 100vh;
 }
 
@@ -28,5 +30,12 @@ code {
   font-family: 'Calculator';
   src: local('Calculator'),
     url('./fonts/Calculator/Calculator.ttf') format('truetype');
+  font-weight: regular;
+}
+
+@font-face {
+  font-family: 'PressStart';
+  src: local('PressStart'),
+    url('./fonts/PressStart/PressStart.ttf') format('truetype');
   font-weight: regular;
 }

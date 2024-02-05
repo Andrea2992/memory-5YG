@@ -9,29 +9,33 @@
 #game-status {
     height: 50px;
     width: 250px;
-    background-color: rgba(144, 238, 144, 0.8);
+    background: url('../public/assets/header-8bit.jpg') no-repeat center / cover;
     margin-right: 30px;
-    border: 7px double black;
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 6px;
     text-align: center;
     display: grid;
 	align-items: center;
-    font-family: Calculator;
-    font-weight: bold;
-    font-size: 20px;
+    font-family: PressStart;
+    font-size: 13px;
+    color: white;
+}
+
+#div-8bit {
+    
 }
 
 #score {
     height: 50px;
     width: 250px;
-    background-color: rgba(196, 134, 54, 0.8);
+    background: url('../public/assets/header-8bit.jpg') no-repeat center / cover;
     margin-left: 30px;
-    border: 7px double black;
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 6px;
     text-align: center;
     display: grid;
     align-items: center;
-    font-family: Calculator;
-    font-weight: bold;
-    font-size: 20px;
+    font-family: PressStart;
+    font-size: 13px;
+    color: white;
 }
