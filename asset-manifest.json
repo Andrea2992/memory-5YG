@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/memory-5YG/static/css/main.19557f04.css",
+    "main.css": "/memory-5YG/static/css/main.6a1cfd00.css",
     "main.js": "/memory-5YG/static/js/main.542cb280.js",
     "static/media/background-8bit.jpg": "/memory-5YG/static/media/background-8bit.1e7f269a95c03ee4c08d.jpg",
     "static/media/winner.png": "/memory-5YG/static/media/winner.9761da0e780959a2b608.png",
@@ -8,11 +8,11 @@
     "static/media/PressStart.ttf": "/memory-5YG/static/media/PressStart.2ebf1a35a67b4271603e.ttf",
     "static/media/Calculator.ttf": "/memory-5YG/static/media/Calculator.5b0ae8cafe5f1cb0de81.ttf",
     "index.html": "/memory-5YG/index.html",
-    "main.19557f04.css.map": "/memory-5YG/static/css/main.19557f04.css.map",
+    "main.6a1cfd00.css.map": "/memory-5YG/static/css/main.6a1cfd00.css.map",
     "main.542cb280.js.map": "/memory-5YG/static/js/main.542cb280.js.map"
   },
   "entrypoints": [
-    "static/css/main.19557f04.css",
+    "static/css/main.6a1cfd00.css",
     "static/js/main.542cb280.js"
   ]
 }
