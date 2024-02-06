@@ -1,137 +1,310 @@
-@media (min-width: 1px) and (max-width: 299.98px) {
-    
+@media (min-width: 1px) and (max-width: 359.98px) {
+
     #game-status-container {
-        width: 95%;
+        height: 120px;
+        flex-wrap: wrap;
+    }
+
+    .full-width-small-devices {
+        width: 100%;
         height: 60px;
-        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #game-status {
-        height: 40px;
-        width: 190px;
-        font-size: 15px;
-        margin-right: 3px;
-        border: 4px double black;
+        width: 200px;
+        margin-right: 0px;
+        border-left: 2px solid #00ff62;
+        border-right: 2px solid #00ff62;
+        font-size: 10px;
     }
 
     #score {
-        height: 40px;
-        width: 190px;
-        font-size: 15px;
-        margin-left: 3px;
-        border: 4px double black;
+        width: 200px;
+        margin-left: 0px;
+        border-left: 2px solid #00ff62;
+        border-right: 2px solid #00ff62;
+        font-size: 10px;
+    }
+
+    .div-8bit {
+        height: 44px;
+        margin: -2px 0;
+        border-top: 2px solid #00ff62;
+        border-bottom: 2px solid #00ff62;
+    }
+
+    .div-8bit::before,
+    .div-8bit::after,
+    #game-status::before,
+    #game-status::after,
+    #score::before,
+    #score::after {
+        width: 2px;
+        height: 2px;
+    }
+
+    .div-8bit::before {
+        top: -1px;
+        left: -1px;
+    }
+
+    .div-8bit::after {
+        top: -1px;
+        right: -1px;
+    }
+
+    #game-status::before {
+        bottom: -1px;
+        left: -1px;
+    }
+
+    #game-status::after {
+        bottom: -1px;
+        right: -1px;
+    }
+
+    #score::before {
+        bottom: -1px;
+        left: -1px;
+    }
+
+    #score::after {
+        bottom: -1px;
+        right: -1px;
     }
 
 }
 
-@media (min-width: 300px) and (max-width: 499.98px) {
-    
+@media (min-width: 360px) and (max-width: 459.98px) {
+
     #game-status-container {
-        width: 95%;
+        height: 120px;
+        flex-wrap: wrap;
+    }
+
+    .full-width-small-devices {
+        width: 100%;
         height: 60px;
-        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #game-status {
-        height: 40px;
-        width: 190px;
-        font-size: 17px;
-        margin-right: 3px;
+        width: 200px;
+        margin-right: 0px;
+        border-left: 4px solid #00ff62;
+        border-right: 4px solid #00ff62;
+        font-size: 11px
     }
 
     #score {
-        height: 40px;
-        width: 190px;
-        font-size: 17px;
-        margin-left: 3px;
+        width: 200px;
+        margin-left: 0px;
+        border-left: 4px solid #00ff62;
+        border-right: 4px solid #00ff62;
+        font-size: 11px;
+    }
+
+    .div-8bit {
+        height: 44px;
+        margin: -4px 0;
+        border-top: 4px solid #00ff62;
+        border-bottom: 4px solid #00ff62;
+    }
+
+    .div-8bit::before,
+    .div-8bit::after,
+    #game-status::before,
+    #game-status::after,
+    #score::before,
+    #score::after {
+        width: 4px;
+        height: 4px;
+    }
+
+    .div-8bit::before {
+        top: -2px;
+        left: -2px;
+    }
+
+    .div-8bit::after {
+        top: -2px;
+        right: -2px;
+    }
+
+    #game-status::before {
+        bottom: -2px;
+        left: -2px;
+    }
+
+    #game-status::after {
+        bottom: -2px;
+        right: -2px;
+    }
+
+    #score::before {
+        bottom: -2px;
+        left: -2px;
+    }
+
+    #score::after {
+        bottom: -2px;
+        right: -2px;
     }
 
 }
 
-@media (min-width: 500px) and (max-width: 754.98px) {
-    
+@media (min-width: 460px) and (max-width: 549.98px) {
+
     #game-status-container {
+        height: 150px;
+        flex-wrap: wrap;
+    }
+
+    .full-width-small-devices {
+        width: 100%;
         height: 75px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     #game-status {
-        height: 40px;
-        width: 190px;
-        font-size: 17px;
-        margin-right: 15px;
+        width: 240px;
+        margin-right: 0px;
+        border-left: 4px solid #00ff62;
+        border-right: 4px solid #00ff62;
+        font-size: 12px
     }
 
     #score {
-        height: 40px;
-        width: 190px;
-        font-size: 17px;
-        margin-left: 15px;
+        width: 240px;
+        margin-left: 0px;
+        border-left: 4px solid #00ff62;
+        border-right: 4px solid #00ff62;
+        font-size: 12px;
     }
 
-}
-
-@media (min-width: 755px) and (max-width: 959.98px) {
-    
-    #game-status-container {
-        height: 80px;
-    }
-
-    #game-status {
-        height: 45px;
-        width: 210px;
-        font-size: 18px;
-        margin-right: 20px;
-    }
-
-    #score {
-        height: 45px;
-        width: 210px;
-        font-size: 18px;
-        margin-left: 20px;
-    }
-
-}
-
-@media (min-width: 960px) and (max-width: 1279.98px) {
-    
-    #game-status-container {
-        height: 80px;
-    }
-
-    #game-status {
-        height: 45px;
-        width: 210px;
-        font-size: 18px;
-        margin-right: 20px;
-    }
-
-    #score {
-        height: 45px;
-        width: 210px;
-        font-size: 18px;
-        margin-left: 20px;
-    }
-
-}
-
-@media (max-width: 959.98px) and (orientation: landscape) and (pointer:coarse) {
-
-    #game-status-container {
+    .div-8bit {
         height: 60px;
+        margin: -4px 0;
+        border-top: 4px solid #00ff62;
+        border-bottom: 4px solid #00ff62;
+    }
+
+    .div-8bit::before,
+    .div-8bit::after,
+    #game-status::before,
+    #game-status::after,
+    #score::before,
+    #score::after {
+        width: 4px;
+        height: 4px;
+    }
+
+    .div-8bit::before {
+        top: -2px;
+        left: -2px;
+    }
+
+    .div-8bit::after {
+        top: -2px;
+        right: -2px;
+    }
+
+    #game-status::before {
+        bottom: -2px;
+        left: -2px;
+    }
+
+    #game-status::after {
+        bottom: -2px;
+        right: -2px;
+    }
+
+    #score::before {
+        bottom: -2px;
+        left: -2px;
+    }
+
+    #score::after {
+        bottom: -2px;
+        right: -2px;
+    }
+
+}
+
+@media (min-width: 550px) and (max-width: 699.98px) {
+
+    #game-status-container {
+        height: 85px;
     }
 
     #game-status {
-        height: 36px;
-        width: 172px;
-        font-size: 15px;
-        margin-right: 10px;
+        width: 230px;
+        margin-right: 25px;
+        border-left: 4px solid #00ff62;
+        border-right: 4px solid #00ff62;
+        font-size: 12px;
     }
 
     #score {
-        height: 36px;
-        width: 172px;
-        font-size: 15px;
-        margin-left: 10px;
+        width: 230px;
+        margin-left: 25px;
+        border-left: 4px solid #00ff62;
+        border-right: 4px solid #00ff62;
+        font-size: 12px;
+    }
+
+    .div-8bit {
+        height: 47px;
+        margin: -4px 0;
+        border-top: 4px solid #00ff62;
+        border-bottom: 4px solid #00ff62;
+    }
+
+    .div-8bit::before,
+    .div-8bit::after,
+    #game-status::before,
+    #game-status::after,
+    #score::before,
+    #score::after {
+        width: 4px;
+        height: 4px;
+    }
+
+    .div-8bit::before {
+        top: -2px;
+        left: -2px;
+    }
+
+    .div-8bit::after {
+        top: -2px;
+        right: -2px;
+    }
+
+    #game-status::before {
+        bottom: -2px;
+        left: -2px;
+    }
+
+    #game-status::after {
+        bottom: -2px;
+        right: -2px;
+    }
+
+    #score::before {
+        bottom: -2px;
+        left: -2px;
+    }
+
+    #score::after {
+        bottom: -2px;
+        right: -2px;
     }
 
 }

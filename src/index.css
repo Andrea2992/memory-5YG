@@ -15,7 +15,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: url('../public/assets/white-backg8bit.jpg');
+  background: url('../public/assets/background-8bit.jpg') ;
   background-size: 110%;
   /*background-position: 50% 20%;*/
   min-height: 100vh;

@@ -1,0 +1,32 @@
+@media (min-width: 1px) and (max-width: 299.98px) {
+
+    body {
+        background-size: 150%;
+    }
+
+}
+
+
+@media (min-width: 300px) and (max-width: 374.98px) {
+
+    body {
+        background-size: 230%;
+    }
+
+}
+
+@media (min-width: 375px) and (max-width: 449.98px) {
+
+    body {
+        background-size: 230%;
+    }
+
+}
+
+@media (min-width: 450px) and (max-width: 649.98px) {
+
+    body {
+        background-size: 160%;
+    }
+/*6923px*/
+}

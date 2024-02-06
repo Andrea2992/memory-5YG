@@ -1,73 +1,87 @@
-@media (min-width: 1px) and (max-width: 329.98px) {
-    
+@media (min-width: 1px) and (max-width: 299.98px) {
+
     .single-card-container {
         width: 60px;
         height: 60px;
-        margin: -1px 4px;
+        margin: 2px 5px;
     }
 
-    .gold-border {
-        border: 2px solid gold;
-    }
-    
-    .red-border {
-        border: 2px solid #e9e9e1;
+    .memory-image {
+        border: 2px solid #00ff62;
     }
 
 }
 
-@media (min-width: 330px) and (max-width: 359.98px) {
-    
+@media (min-width: 300px) and (max-width: 389.98px) {
+
     .single-card-container {
-        width: 72px;
-        height: 72px;
-        margin: -1px 4px;
+        width: 63px;
+        height: 63px;
+        margin: 2px 5px;
     }
 
-    .gold-border {
-        border: 2px solid gold;
-    }
-    
-    .red-border {
-        border: 2px solid #e9e9e1;
+    .memory-image {
+        border: 2px solid #00ff62;
     }
 
 }
 
-@media (min-width: 360px) and (max-width: 599.98px) {
-    
-    .single-card-container {
-        width: 77px;
-        height: 77px;
-        margin: 5px;
-    }
+@media (min-width: 390px) and (max-width: 659.98px) {
 
-    .gold-border {
-        border: 2px solid gold;
-    }
-    
-    .red-border {
-        border: 2px solid #e9e9e1;
+    .single-card-container {
+        width: 80px;
+        height: 80px;
+        margin: 2px 5px;
     }
 
 }
 
-@media (min-width: 600px) and (max-width: 959.98px) {
-    
+@media (min-width: 660px) and (max-width: 799.98px) {
+
     .single-card-container {
-        width: 82px;
-        height: 82px;
-        margin: 8px;
+        width: 90px;
+        height: 90px;
+        margin: 2px 5px;
     }
 
 }
 
-@media (max-width: 959.98px) and (orientation: landscape) and (pointer:coarse) {
+@media (min-width: 800px) and (max-width: 959.98px) {
 
     .single-card-container {
-        height: 70px;
-        width: 70px;
-        margin: 1px 5px;
+        width: 100px;
+        height: 100px;
+        margin: 3px 5px;
+    }
+
+}
+
+@media (min-width: 960px) and (max-width: 1499.98px) {
+
+    .single-card-container {
+        width: 105px;
+        height: 105px;
+        margin: 3px 5px;
+    }
+
+}
+
+@media (min-width: 1500px) and (max-width: 1599.98px) {
+
+    .single-card-container {
+        width: 135px;
+        height: 135px;
+        margin: 3px 5px;
+    }
+
+}
+
+@media (min-width: 1600px) and (max-width: 1899.98px) {
+
+    .single-card-container {
+        width: 140px;
+        height: 140px;
+        margin: 4px 6px;
     }
 
 }

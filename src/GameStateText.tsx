@@ -13,14 +13,18 @@ function GameStateText() {
     return (
         <>
             <div id='game-status-container'>
-                <div id='game-status'>
-                    <div className='div-8bit'>
-                        {text.message}<br />{text.hint}
+                <div className='full-width-small-devices'>
+                    <div id='game-status'>
+                        <div className='div-8bit'>
+                            {text.message}<br />{text.hint}
+                        </div>
                     </div>
                 </div>
-                <div id='score'>
-                    <div className='div-8bit'>
-                        {isGameEnded}
+                <div className='full-width-small-devices'>
+                    <div id='score'>
+                        <div className='div-8bit'>
+                            {isGameEnded}
+                        </div>
                     </div>
                 </div>
             </div>

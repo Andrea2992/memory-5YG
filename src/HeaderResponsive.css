@@ -1,69 +1,41 @@
-@media (min-width: 1px) and (max-width: 319.98px) {
+@media (min-width: 1px) and (max-width: 399.98px) {
     
     #header-banner {
-        height: 70px;
-        justify-content: left;
+       height: 45px;
+       justify-content: flex-start;
     }
 
     #header-title {
-        font-size: 30px;
-        margin-left: 4%;
+       font-size: 13px;
+       margin-left: 3%;
     }
 
 }
 
-@media (min-width: 320px) and (max-width: 499.98px) {
+@media (min-width: 400px) and (max-width: 699.98px) {
     
     #header-banner {
-        height: 70px;
-        justify-content: left;
+       height: 60px;
+       justify-content: flex-start;
     }
 
     #header-title {
-        font-size: 35px;
-        margin-left: 5%;
+       font-size: 20px;
+       margin-left: 3%;
     }
 
 }
 
-@media (min-width: 500px) and (max-width: 754.98px) {
+@media (min-width: 700px) and (max-width: 1279.98px) {
     
     #header-banner {
-        height: 90px;
-        justify-content: left;
+       height: 90px;
+       justify-content: flex-start;
     }
 
     #header-title {
-        font-size: 45px;
-        margin-left: 5%;
-    }
-
-}
-
-@media (min-width: 755px) and (max-width: 959.98px) {
-    
-    #header-banner {
-        height: 100px;
-        justify-content: left;
-    }
-
-    #header-title {
-        font-size: 60px;
-        margin-left: 5%;
-    }
-
-}
-
-@media (min-width: 960px) and (max-width: 1279.98px) {
-    
-    #header-banner {
-        height: 100px;
-        justify-content: left;
-    }
-
-    #header-title {
-        font-size: 60px;
-        margin-left: 5%;
+       font-size: 30px;
+       margin-left: 3%;
     }
 
 }
@@ -71,15 +43,16 @@
 @media (min-width: 1280px) and (max-width: 1599.98px) {
     
     #header-banner {
-        height: 110px;
+       height: 100px;
     }
 
     #header-title {
-        font-size: 60px;
+       font-size: 35px;
     }
 
 }
 
+/*
 @media (max-width: 959.98px) and (orientation: landscape) and (pointer:coarse) {
 
     #header-banner {
@@ -90,4 +63,4 @@
         font-size: 25px;
     }
 
-}
+}*/
