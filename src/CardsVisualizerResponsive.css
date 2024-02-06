@@ -6,3 +6,11 @@
     
 
 }
+
+@media (max-width: 959.98px) and (orientation: landscape) and (pointer:coarse) {
+
+    #cards-container {
+        padding: 10px 0 0 0;
+    }
+
+}

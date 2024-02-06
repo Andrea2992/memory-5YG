@@ -85,3 +85,17 @@
     }
 
 }
+
+@media (max-width: 959.98px) and (orientation: landscape) and (pointer:coarse) {
+
+    .single-card-container {
+        width: 70px;
+        height: 70px;
+        margin: 0px 4px;
+    }
+
+    .memory-image {
+        border: 2px solid #00ff62;
+    }
+
+}

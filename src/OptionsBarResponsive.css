@@ -76,3 +76,42 @@
     }
 
 }
+
+@media (max-width: 959.98px) and (orientation: landscape) and (pointer:coarse) {
+
+    #options-container {
+        position: absolute;
+        height: 30px;
+        width: 100%;
+        top: 2px;
+    }
+
+    #div-8bit {
+        border-left: 2px solid #00ff62;
+        border-right: 2px solid #00ff62;
+        margin-right: 15px;
+    }
+
+    #new-game-button {
+        height: 22px;
+        width: 90px;
+        font-size: 8px;
+        margin: -2px 0;
+        border-top: 2px solid #00ff62;
+        border-bottom: 2px solid #00ff62;
+    }
+
+    #new-game-button::before,
+    #new-game-button::after,
+    #div-8bit::before,
+    #div-8bit::after {
+        width: 2px;
+        height: 2px;
+    }
+
+    #new-game-button::before{ top: -1px; left: -1px; }
+    #new-game-button::after{ top: -1px; right: -1px; }
+    #div-8bit::before{ bottom: -1px; left: -1px; }
+    #div-8bit::after{ bottom: -1px; right: -1px; }
+
+}

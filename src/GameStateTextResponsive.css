@@ -308,3 +308,12 @@
     }
 
 }
+
+@media (max-width: 959.98px) and (orientation: landscape) and (pointer:coarse) {
+
+    #game-status-container {
+        position: absolute;
+        bottom: -12px;
+    }
+
+}

@@ -33,3 +33,12 @@
     }
 
 }
+
+@media (max-width: 959.98px) and (orientation: landscape) and (pointer:coarse) {
+
+    #content-container {
+        margin-top: 0px;
+        min-height: calc(100vh - 35px);
+    }
+
+}
