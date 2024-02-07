@@ -1,0 +1,26 @@
+#volume {
+    height: 50px;
+    width: 50px;
+    background-color: #35fa35;
+    position: absolute;
+    bottom: 1%;
+    left: 1%;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+
+#volume:hover {
+    scale: 1.05;
+}
+
+#volume:active {
+    scale: 0.95
+}
+
+.volume-on {
+    background: url('../public/assets/volume_on.png') no-repeat center / cover;
+}
+
+.volume-off {
+    background: url('../public/assets/volume_off.png') no-repeat center / cover;
+}

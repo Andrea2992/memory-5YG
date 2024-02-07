@@ -9,6 +9,7 @@ import OptionsBar from './OptionsBar';
 import { newGame, updateCards } from './redux/memoryCardsSlice';
 import { updateText } from './redux/gameStateTextSLice';
 import { newGameScore } from './redux/scoreSlice';
+import { soundtrack, winGameSound } from './audio-preload';
 
 function CardsVisualizer() {
     const dispatch = useDispatch();
@@ -25,6 +26,9 @@ function CardsVisualizer() {
     }
 
     const handleNewGame = (cardsArray: MemoryCard[]) => {
+        winGameSound.stop();
+        soundtrack.stop();
+        soundtrack.play();
         const newArray = shuffleArray([...cardsArray]);
         dispatch(newGame(newArray));
         dispatch(updateText({ hint: 'choose one card', message: 'started new game!' }));

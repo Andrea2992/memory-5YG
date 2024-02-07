@@ -5,6 +5,7 @@ import GameStateText from './GameStateText';
 import Header from './Header';
 import { useSelector } from 'react-redux';
 import { IRootState } from './redux/store';
+import Volume from './Volume';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <CardsVisualizer />
         <GameStateText />
       </div>
+      <Volume/>
     </>
   );
 }
