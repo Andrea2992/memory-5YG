@@ -17,20 +17,12 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: url('../public/assets/background-8bit.jpg') ;
   background-size: 110%;
-  /*background-position: 50% 20%;*/
   min-height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
-
-@font-face {
-  font-family: 'Calculator';
-  src: local('Calculator'),
-    url('./fonts/Calculator/Calculator.ttf') format('truetype');
-  font-weight: regular;
 }
 
 @font-face {
