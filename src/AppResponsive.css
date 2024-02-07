@@ -5,6 +5,10 @@
         min-height: calc(100vh - 45px);
     }
 
+    .content-container-win {
+        background-size: 190%;
+    }
+
 }
 
 @media (min-width: 400px) and (max-width: 699.98px) {
@@ -14,6 +18,10 @@
         min-height: calc(100vh - 70px);
     }
 
+    .content-container-win {
+        background-size: 180%;
+    }
+
 }
 
 @media (min-width: 700px) and (max-width: 1279.98px) {
@@ -21,6 +29,10 @@
     #content-container {
         margin-top: 10px;
         min-height: calc(100vh - 100px);
+    }
+
+    .content-container-win {
+        background-size: 180%;
     }
 
 }
