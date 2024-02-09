@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/memory-5YG/static/css/main.e99754e7.css",
-    "main.js": "/memory-5YG/static/js/main.1ac8854c.js",
-    "static/media/background-8bit.jpg": "/memory-5YG/static/media/background-8bit.1e7f269a95c03ee4c08d.jpg",
-    "static/media/winner.png": "/memory-5YG/static/media/winner.9761da0e780959a2b608.png",
+    "main.css": "/memory-5YG/static/css/main.2ee9f747.css",
+    "main.js": "/memory-5YG/static/js/main.53bcd0a3.js",
+    "static/media/background-8bit.jpg": "/memory-5YG/static/media/background-8bit.b5389d42ee0f50bf140f.jpg",
+    "static/media/winner.png": "/memory-5YG/static/media/winner.adb2fd77f6e30e179e5e.png",
     "static/media/header-8bit.jpg": "/memory-5YG/static/media/header-8bit.508e3325326f88bc9d49.jpg",
     "static/media/PressStart.ttf": "/memory-5YG/static/media/PressStart.2ebf1a35a67b4271603e.ttf",
     "index.html": "/memory-5YG/index.html",
-    "main.e99754e7.css.map": "/memory-5YG/static/css/main.e99754e7.css.map",
-    "main.1ac8854c.js.map": "/memory-5YG/static/js/main.1ac8854c.js.map"
+    "main.2ee9f747.css.map": "/memory-5YG/static/css/main.2ee9f747.css.map",
+    "main.53bcd0a3.js.map": "/memory-5YG/static/js/main.53bcd0a3.js.map"
   },
   "entrypoints": [
-    "static/css/main.e99754e7.css",
-    "static/js/main.1ac8854c.js"
+    "static/css/main.2ee9f747.css",
+    "static/js/main.53bcd0a3.js"
   ]
 }
